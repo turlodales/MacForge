@@ -1,7 +1,10 @@
 # Changelog
 
-### 0.14.1
+### 0.14.2
 
+-   Helper changed to using XPC connection for injection [@jslegendre](https://github.com/jslegendre)
+-    Switched to disabling Library Validation because of [AMFI issues](https://github.com/w0lfschild/MacForge/issues/30#issuecomment-604647302)
+-    AMFI disable via nvram no longer supported
 -    Fixed Helper freezing if injection failed
 -    Fixed Helper crashing if injector not installed
 -    Fixed Helper failing to launch

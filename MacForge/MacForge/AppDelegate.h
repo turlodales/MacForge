@@ -188,6 +188,7 @@
 
 @property IBOutlet NSTextField      *SIP_status;
 @property IBOutlet NSTextField      *AMFI_status;
+@property IBOutlet NSTextField      *LV_status;
 
 @property IBOutlet NSScrollView     *blacklistScroll;
 @property IBOutlet blacklistTable   *blackListTable;

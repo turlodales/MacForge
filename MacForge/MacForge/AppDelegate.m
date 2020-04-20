@@ -508,6 +508,7 @@ Boolean appSetupFinished = false;
         NSBundle *frameworkBundle = [NSBundle bundleWithIdentifier:frameworkBundleID];
         MFKSipView *p = [[MFKSipView alloc] initWithNibName:@"MFKSipView" bundle:frameworkBundle];
         NSView *view = p.view;
+                
         [p.confirmQuit setTarget:self];
         [p.confirmQuit setAction:@selector(byeSIP)];
         [p.confirmReboot setTarget:self];
@@ -1168,25 +1169,31 @@ Boolean appSetupFinished = false;
 
 - (void)setupSIMBLview {
     [_SIMBLTogggle setState:[FileManager fileExistsAtPath:@"/Library/PrivilegedHelperTools/com.w0lf.MacForge.Injector"]];
-    [_SIMBLAgentToggle setState:[FileManager fileExistsAtPath:@"/Library/PrivilegedHelperTools/com.w0lf.MacForge.Installer"]];
-        
-    Boolean sipEnabled = [MacForgeKit SIP_enabled];
-    Boolean sipHasFlags = [MacForgeKit SIP_HasRequiredFlags];
-    Boolean amfiEnabled = [MacForgeKit AMFI_enabled];
-    
-    [_SIP_NVRAM setState:![MacForgeKit SIP_NVRAM]];
-    [_SIP_TaskPID setState:![MacForgeKit SIP_TASK_FOR_PID]];
-    [_SIP_filesystem setState:![MacForgeKit SIP_Filesystem]];
-    
-    if (!sipEnabled) [_SIP_status setStringValue:@"Disabled"];
-    if (!amfiEnabled) [_AMFI_status setStringValue:@"Disabled"];;
-    if (sipEnabled && sipHasFlags) [_SIP_status setStringValue:@"Enabled (Custom)"];
-    
-    if (!amfiEnabled && sipHasFlags) {
-        [_SIPWarning setHidden:true];
-    } else {
-        [_SIPWarning setHidden:false];
-    }
+     [_SIMBLAgentToggle setState:[FileManager fileExistsAtPath:@"/Library/PrivilegedHelperTools/com.w0lf.MacForge.Installer"]];
+         
+     Boolean sipEnabled = [MacForgeKit SIP_enabled];
+     Boolean sipHasFlags = [MacForgeKit SIP_HasRequiredFlags];
+     Boolean amfiEnabled = [MacForgeKit AMFI_enabled];
+     Boolean LVEnabled = [MacForgeKit LIBRARYVALIDATION_enabled];
+     
+     [_SIP_NVRAM setState:![MacForgeKit SIP_NVRAM]];
+     [_SIP_TaskPID setState:![MacForgeKit SIP_TASK_FOR_PID]];
+     [_SIP_filesystem setState:![MacForgeKit SIP_Filesystem]];
+     
+     if (!sipEnabled) [_SIP_status setStringValue:@"Disabled"];
+     if (!amfiEnabled) [_AMFI_status setStringValue:@"Disabled"];
+     if (!LVEnabled) [_LV_status setStringValue:@"Disabled"];
+     if (sipEnabled && sipHasFlags) [_SIP_status setStringValue:@"Enabled (Custom)"];
+     
+     dispatch_async(dispatch_get_global_queue( DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
+         [MacForgeKit AMFI_NUKE];
+     });
+     
+     if (!LVEnabled && sipHasFlags) {
+         [_SIPWarning setHidden:true];
+     } else {
+         [_SIPWarning setHidden:false];
+     }
 }
 
 - (void)simbl_blacklist {

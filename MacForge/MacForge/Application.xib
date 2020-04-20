@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15702" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.AVKitIBPlugin" version="15702"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15702"/>
+        <plugIn identifier="com.apple.AVKitIBPlugin" version="16096"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -17,7 +17,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="335" y="390" width="1000" height="700"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="3360" height="1867"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2137"/>
             <value key="minSize" type="size" width="1000" height="700"/>
             <value key="maxSize" type="size" width="1200" height="900"/>
             <view key="contentView" wantsLayer="YES" id="EiT-Mj-1SZ">
@@ -220,7 +220,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="200" y="200" width="290" height="141"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="3360" height="1867"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2137"/>
             <value key="minSize" type="size" width="290" height="141"/>
             <view key="contentView" id="Eqh-NF-XA9">
                 <rect key="frame" x="0.0" y="0.0" width="290" height="141"/>
@@ -254,7 +254,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="207" width="480" height="270"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="3360" height="1867"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="3840" height="2137"/>
             <view key="contentView" id="L4G-QM-bNk">
                 <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -548,11 +548,11 @@
                 <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="84q-bC-dVG">
                     <rect key="frame" x="21" y="20" width="558" height="349"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
-                    <clipView key="contentView" ambiguous="YES" id="oGH-14-Lhi">
+                    <clipView key="contentView" id="oGH-14-Lhi">
                         <rect key="frame" x="1" y="0.0" width="556" height="348"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <tableView verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="ghc-3x-OmY" viewBased="YES" id="4xF-cC-8lT">
+                            <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="ghc-3x-OmY" viewBased="YES" id="4xF-cC-8lT">
                                 <rect key="frame" x="0.0" y="0.0" width="556" height="323"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <size key="intercellSpacing" width="3" height="2"/>
@@ -561,7 +561,6 @@
                                 <tableColumns>
                                     <tableColumn width="116" minWidth="40" maxWidth="1000" id="MTg-ra-7eU">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                            <font key="font" metaFont="controlContent" size="11"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                         </tableHeaderCell>
@@ -594,7 +593,6 @@
                                     </tableColumn>
                                     <tableColumn width="434" minWidth="40" maxWidth="1000" id="JeB-FE-961">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                            <font key="font" metaFont="controlContent" size="11"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                         </tableHeaderCell>
@@ -715,11 +713,11 @@
                 <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="32" horizontalPageScroll="10" verticalLineScroll="32" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MMs-ci-F3W">
                     <rect key="frame" x="386" y="20" width="316" height="635"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
-                    <clipView key="contentView" ambiguous="YES" id="DVZ-JD-MKi">
+                    <clipView key="contentView" id="DVZ-JD-MKi">
                         <rect key="frame" x="1" y="1" width="314" height="633"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" autosaveColumns="NO" rowHeight="30" rowSizeStyle="automatic" viewBased="YES" id="efl-VW-IC0" customClass="blacklistTable">
+                            <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" autosaveColumns="NO" rowHeight="30" rowSizeStyle="automatic" viewBased="YES" id="efl-VW-IC0" customClass="blacklistTable">
                                 <rect key="frame" x="0.0" y="0.0" width="314" height="633"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <size key="intercellSpacing" width="3" height="2"/>
@@ -729,7 +727,6 @@
                                 <tableColumns>
                                     <tableColumn width="311" minWidth="40" maxWidth="1000" id="lBR-iK-oWR">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                            <font key="font" metaFont="controlContent" size="11"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                         </tableHeaderCell>
@@ -791,32 +788,12 @@
                         <action selector="addorRemoveBlacklistItem:" target="Voe-Tx-rLC" id="WyD-NI-mp3"/>
                     </connections>
                 </segmentedControl>
-                <textField verticalHuggingPriority="750" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SgT-r1-Vjb">
-                    <rect key="frame" x="18" y="255" width="362" height="380"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="left" id="Q1A-Q0-WJp">
-                        <font key="font" metaFont="system"/>
-                        <string key="title">For plugins to load System Integrity Protection must be disabled.  Newer apps and many system apps require both System Integrity Protection and Apple Mobile File Integrity be disabled.  Changes to AMFI require a reboot to take effect. They also reqire SIP be disabled to make change.  Follow the instructions below to partially disable System Integrity Protection:
-
-1 : Restart your computer
-2 : Hold (Command [⌘] +  R) while booting
-3 : Open terminal from the menubar
-4 : Enter these commands:
-
-csrutil enable --without fs --without debug
-nvram boot-args="amfi_get_out_of_my_way=1"
-
-5 : Restart your computer</string>
-                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                    </textFieldCell>
-                </textField>
                 <box verticalHuggingPriority="750" fixedFrame="YES" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="GIg-3w-wWi">
-                    <rect key="frame" x="12" y="244" width="366" height="5"/>
+                    <rect key="frame" x="12" y="252" width="366" height="5"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </box>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jhN-2k-dpe">
-                    <rect key="frame" x="42" y="76" width="22" height="22"/>
+                    <rect key="frame" x="42" y="51" width="22" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" enabled="NO" allowsMixedState="YES" inset="2" id="9sS-kj-FK7">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -824,7 +801,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </buttonCell>
                 </button>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JqX-49-ZHt">
-                    <rect key="frame" x="42" y="51" width="22" height="22"/>
+                    <rect key="frame" x="42" y="26" width="22" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" enabled="NO" allowsMixedState="YES" inset="2" id="7on-1l-JhZ">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -832,7 +809,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </buttonCell>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TPX-f3-kLl">
-                    <rect key="frame" x="72" y="79" width="52" height="17"/>
+                    <rect key="frame" x="72" y="54" width="52" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Installer" id="4I6-Ko-8c1">
                         <font key="font" metaFont="system"/>
@@ -841,7 +818,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RCk-ks-hJc">
-                    <rect key="frame" x="72" y="54" width="50" height="17"/>
+                    <rect key="frame" x="72" y="29" width="50" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Injector" id="o6D-oL-Tsg">
                         <font key="font" metaFont="system"/>
@@ -850,7 +827,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gUz-Wz-rjF">
-                    <rect key="frame" x="10" y="106" width="237" height="17"/>
+                    <rect key="frame" x="10" y="81" width="237" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="MacForge components:" id="XGq-hY-5Gw">
                         <font key="font" metaFont="system"/>
@@ -868,7 +845,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BMv-MC-QgR">
-                    <rect key="frame" x="10" y="183" width="220" height="17"/>
+                    <rect key="frame" x="10" y="158" width="220" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="System Integrity Protection (SIP)  :" id="ssk-NN-mLw">
                         <font key="font" metaFont="system"/>
@@ -877,7 +854,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </textFieldCell>
                 </textField>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bpb-Y4-I5c">
-                    <rect key="frame" x="248" y="184" width="124" height="17"/>
+                    <rect key="frame" x="248" y="159" width="124" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Enabled" id="muU-9V-piW">
                         <font key="font" metaFont="system"/>
@@ -886,7 +863,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </textFieldCell>
                 </textField>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xk7-FP-Hey">
-                    <rect key="frame" x="42" y="153" width="22" height="22"/>
+                    <rect key="frame" x="42" y="128" width="22" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" enabled="NO" allowsMixedState="YES" inset="2" id="ISo-qH-GwU">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -894,7 +871,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </buttonCell>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kVB-7y-074">
-                    <rect key="frame" x="68" y="155" width="211" height="17"/>
+                    <rect key="frame" x="68" y="130" width="211" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Unrestricted Filesystem" id="cxK-i4-Ya7">
                         <font key="font" metaFont="system"/>
@@ -903,7 +880,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </textFieldCell>
                 </textField>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nYt-Dx-SCz">
-                    <rect key="frame" x="42" y="129" width="22" height="22"/>
+                    <rect key="frame" x="42" y="104" width="22" height="22"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" enabled="NO" allowsMixedState="YES" inset="2" id="xlJ-1u-Ae7">
                         <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
@@ -911,7 +888,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     </buttonCell>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g9X-4Q-HfN">
-                    <rect key="frame" x="68" y="131" width="211" height="17"/>
+                    <rect key="frame" x="68" y="106" width="211" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Unrestricted Injection" id="51P-3L-xaq">
                         <font key="font" metaFont="system"/>
@@ -928,8 +905,52 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dQq-PZ-rDw">
+                    <rect key="frame" x="10" y="184" width="220" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Library Validation :" id="eFX-ID-fKg">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9O4-cq-od5">
+                    <rect key="frame" x="248" y="184" width="124" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Enabled" id="m7i-3P-nTE">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" fixedFrame="YES" setsMaxLayoutWidthAtFirstLayout="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SgT-r1-Vjb">
+                    <rect key="frame" x="18" y="263" width="362" height="379"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" alignment="left" id="Q1A-Q0-WJp">
+                        <font key="font" metaFont="label" size="12"/>
+                        <mutableString key="title">For plugins to load System Integrity Protection must be disabled.  Newer apps and many system apps require both System Integrity Protection and Library Validation be disabled.  Changes to Library Validation require a reboot to take effect.
+
+To disable Library Validation:
+
+1 : Open terminal
+2 : Enter this command:
+
+sudo defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+ To disable System Integrity Protection: 
+1 : Restart your computer
+2 : Boot to recovery partition by holding (Command [⌘] +  R)
+3 : Open terminal from the menubar
+4 : Enter this command:
+
+csrutil enable --without fs --without nvram --without debug
+
+5 : Restart your computer</mutableString>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
             </subviews>
-            <point key="canvasLocation" x="-1070" y="-536"/>
+            <point key="canvasLocation" x="-1295" y="-427"/>
         </customView>
         <customView id="Iwv-Pr-3lK" userLabel="Tab Featured">
             <rect key="frame" x="0.0" y="0.0" width="600" height="500"/>
@@ -938,7 +959,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                 <scrollView fixedFrame="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kY-uD-JGr">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="500"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="d0Y-SJ-gXo">
+                    <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="d0Y-SJ-gXo">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -976,7 +997,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     <rect key="frame" x="170" y="417" width="372" height="14"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="Qe4-Br-AAc">
-                        <font key="font" metaFont="controlContent" size="11"/>
+                        <font key="font" metaFont="label" size="11"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
@@ -985,7 +1006,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     <rect key="frame" x="170" y="401" width="372" height="14"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="sZF-Bz-re3">
-                        <font key="font" metaFont="controlContent" size="11"/>
+                        <font key="font" metaFont="label" size="11"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
@@ -1017,11 +1038,11 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                 <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDc-nS-Kiu">
                     <rect key="frame" x="20" y="52" width="560" height="265"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="rEO-vG-Jyl">
+                    <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="rEO-vG-Jyl">
                         <rect key="frame" x="0.0" y="0.0" width="560" height="265"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textView ambiguous="YES" editable="NO" drawsBackground="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="Knp-u7-nXC">
+                            <textView editable="NO" drawsBackground="NO" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="Knp-u7-nXC">
                                 <rect key="frame" x="0.0" y="0.0" width="560" height="265"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -1119,6 +1140,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
                 <outlet property="AMFI_status" destination="DNb-fF-IDi" id="zDM-XH-jsu"/>
+                <outlet property="LV_status" destination="9O4-cq-od5" id="ydc-1T-5Ew"/>
                 <outlet property="SIMBLAgentToggle" destination="JqX-49-ZHt" id="PjC-bq-GPe"/>
                 <outlet property="SIMBLLogging" destination="Ih8-xN-FdK" id="EBa-h9-ZvG"/>
                 <outlet property="SIMBLTogggle" destination="jhN-2k-dpe" id="gLe-Kd-qcg"/>
@@ -1662,11 +1684,11 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                 <scrollView fixedFrame="YES" borderType="none" autohidesScrollers="YES" horizontalLineScroll="42" horizontalPageScroll="10" verticalLineScroll="42" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7OW-7R-wwb">
                     <rect key="frame" x="20" y="45" width="560" height="405"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="9sS-3X-65u">
+                    <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="9sS-3X-65u">
                         <rect key="frame" x="0.0" y="0.0" width="560" height="405"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="40" rowSizeStyle="automatic" viewBased="YES" id="E3Q-ip-sqv">
+                            <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="40" rowSizeStyle="automatic" viewBased="YES" id="E3Q-ip-sqv">
                                 <rect key="frame" x="0.0" y="0.0" width="560" height="405"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <size key="intercellSpacing" width="3" height="2"/>
@@ -1676,7 +1698,6 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                 <tableColumns>
                                     <tableColumn identifier="MyView" width="557" minWidth="40" maxWidth="1000" id="sCX-9R-TsV">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                            <font key="font" metaFont="controlContent" size="11"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                         </tableHeaderCell>
@@ -1702,7 +1723,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="48" y="3" width="401" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Table View Cell" id="nyk-IA-Czb">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453534031415" green="0.49069453534031415" blue="0.49069453534031415" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -1784,7 +1805,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     <rect key="frame" x="84" y="20" width="403" height="14"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Drop bundles to install to /Library/Application Support/MacEnhance/Plugins" id="aLc-1A-562">
-                        <font key="font" metaFont="controlContent" size="11"/>
+                        <font key="font" metaFont="label" size="11"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
@@ -1844,15 +1865,15 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                 <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6LQ-YW-Kru">
                     <rect key="frame" x="0.0" y="0.0" width="741" height="1260"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
-                    <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="hya-bB-e4t">
+                    <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="hya-bB-e4t">
                         <rect key="frame" x="0.0" y="0.0" width="741" height="1260"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view ambiguous="YES" id="RbS-jv-xoa" customClass="MFFlippedView">
+                            <view id="RbS-jv-xoa" customClass="MFFlippedView">
                                 <rect key="frame" x="0.0" y="0.0" width="726" height="1258"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                                 <subviews>
-                                    <customView ambiguous="YES" id="lA9-LN-ecS">
+                                    <customView id="lA9-LN-ecS">
                                         <rect key="frame" x="0.0" y="0.0" width="726" height="1280"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
@@ -1905,7 +1926,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="38" y="1187" width="347" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="MacForge will download and install plugin updates automatically." id="sAM-fo-k7n">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -1914,7 +1935,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="38" y="1148" width="343" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="MacForge will notify you of plugin updates." id="118-6y-pnt">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -1923,7 +1944,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="38" y="1087" width="339" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="The default path MacForge will install plugins to." id="cje-nF-7aq">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -1932,7 +1953,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="38" y="965" width="546" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="MacForge will check for beta updates. Automatically enabled if you're running a beta macOS." id="8Qh-co-8hr">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -1941,7 +1962,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="38" y="923" width="331" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Instantly show tooltips on mouseover." id="5uL-LH-mQ7">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2000,7 +2021,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="36" y="763" width="327" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" id="6om-xV-XcO">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <string key="title">Help macEnhance improve it's products and services by automatically sending diagnostics and usage data. Diagnostic data may include location information.</string>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -2018,7 +2039,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="36" y="696" width="325" height="28"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" title="Help macEnhance improve our apps by sharing your crash data with us." id="GKJ-Lq-ZLx">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2044,7 +2065,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="38" y="879" width="546" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="MacForge will open in the same position as the last time it closed." id="cZx-Ge-ugt">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2064,7 +2085,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="36" y="833" width="542" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="MacForge will hide it's helper application menubar icon." id="XXV-yE-Yv8">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2081,7 +2102,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="36" y="650" width="542" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Allows MacForge to send you push notifications." id="Dse-rD-sEL">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2101,7 +2122,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="42" y="375" width="343" height="14"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Automatically play preview videos with the sound off." id="SsM-tt-rvz">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2345,11 +2366,11 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                 <scrollView fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="62" horizontalPageScroll="10" verticalLineScroll="62" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ky-gn-Aux">
                     <rect key="frame" x="20" y="20" width="560" height="419"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <clipView key="contentView" ambiguous="YES" id="EZ5-pH-chV">
+                    <clipView key="contentView" id="EZ5-pH-chV">
                         <rect key="frame" x="1" y="1" width="558" height="417"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <tableView verticalHuggingPriority="750" ambiguous="YES" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="60" rowSizeStyle="automatic" viewBased="YES" id="Fv5-QD-pqb" customClass="updatesTable">
+                            <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="60" rowSizeStyle="automatic" viewBased="YES" id="Fv5-QD-pqb" customClass="updatesTable">
                                 <rect key="frame" x="0.0" y="0.0" width="558" height="417"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <size key="intercellSpacing" width="3" height="2"/>
@@ -2359,7 +2380,6 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                 <tableColumns>
                                     <tableColumn identifier="psView" width="555" minWidth="40" maxWidth="1000" id="gGl-r7-pWU">
                                         <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                            <font key="font" metaFont="controlContent" size="11"/>
                                             <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                         </tableHeaderCell>
@@ -2387,7 +2407,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="54" y="21" width="400" height="16"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Info" id="WFj-70-pOg">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -2396,7 +2416,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="54" y="3" width="400" height="16"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Description" id="CaY-9t-k4E">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -2475,10 +2495,10 @@ nvram boot-args="amfi_get_out_of_my_way=1"
             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
             <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="4g6-F6-ScC">
                 <rect key="frame" x="0.0" y="0.0" width="560" height="422"/>
-                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="99" rowSizeStyle="automatic" viewBased="YES" id="WzJ-Td-64B" customClass="discoverPluginTable">
-                        <rect key="frame" x="0.0" y="0.0" width="560" height="422"/>
+                        <rect key="frame" x="0.0" y="0.0" width="561" height="422"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <size key="intercellSpacing" width="3" height="2"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2486,7 +2506,6 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                         <tableColumns>
                             <tableColumn width="280.5" minWidth="40" maxWidth="1000" id="sju-7c-mfh">
                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                    <font key="font" metaFont="controlContent" size="11"/>
                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                 </tableHeaderCell>
@@ -2514,7 +2533,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="54" y="60" width="129" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Version" id="aM4-BT-myX">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2523,7 +2542,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="54" y="44" width="129" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Bundle ID" id="S0l-yF-anA">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2532,7 +2551,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                 <rect key="frame" x="3" y="3" width="267" height="42"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" truncatesLastVisibleLine="YES" sendsActionOnEndEditing="YES" title="Description" id="Z6M-fF-2Ou">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2591,7 +2610,6 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                             </tableColumn>
                             <tableColumn width="273.5" minWidth="10" maxWidth="3.4028234663852886e+38" id="kJV-ge-zFd">
                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                    <font key="font" metaFont="controlContent" size="11"/>
                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </tableHeaderCell>
@@ -2603,11 +2621,11 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                 <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                 <prototypeCellViews>
                                     <tableCellView identifier="dpthView" id="Wzy-Mq-To1" customClass="discoverPluginTableHeaderCell">
-                                        <rect key="frame" x="285" y="1" width="273" height="25"/>
+                                        <rect key="frame" x="285" y="1" width="274" height="25"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <subviews>
                                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SxB-jc-tke">
-                                                <rect key="frame" x="1" y="3" width="273" height="16"/>
+                                                <rect key="frame" x="1" y="3" width="274" height="16"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Hello World" id="vcj-Lj-FcM">
                                                     <font key="font" metaFont="system"/>
@@ -2632,7 +2650,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                 </subviews>
                 <nil key="backgroundColor"/>
             </clipView>
-            <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="MX0-va-1dp">
+            <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="MX0-va-1dp">
                 <rect key="frame" x="0.0" y="406" width="560" height="16"/>
                 <autoresizingMask key="autoresizingMask"/>
             </scroller>
@@ -2659,7 +2677,6 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                         <tableColumns>
                             <tableColumn identifier="sView" width="555" minWidth="40" maxWidth="1000" id="New-lV-dMz">
                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                    <font key="font" metaFont="controlContent" size="11"/>
                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                 </tableHeaderCell>
@@ -2692,7 +2709,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="phj-zH-pEh">
                                                 <rect key="frame" x="45" y="5" width="468" height="14"/>
                                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Source URL" id="rBm-AF-Lk2">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2751,7 +2768,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <clipView key="contentView" id="Ggo-4i-dDh">
                 <rect key="frame" x="1" y="1" width="558" height="370"/>
-                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowHeight="60" rowSizeStyle="automatic" viewBased="YES" id="rOu-dT-UNS" customClass="repopluginTable">
                         <rect key="frame" x="0.0" y="0.0" width="558" height="370"/>
@@ -2763,7 +2780,6 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                         <tableColumns>
                             <tableColumn identifier="psView" width="555" minWidth="40" maxWidth="1000" id="59h-LV-eTn">
                                 <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
-                                    <font key="font" metaFont="controlContent" size="11"/>
                                     <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
                                 </tableHeaderCell>
@@ -2789,7 +2805,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mgR-ss-mf0">
                                                 <rect key="frame" x="54" y="21" width="460" height="16"/>
                                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Info" id="R7i-de-UI8">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2800,7 +2816,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                     <constraint firstAttribute="height" constant="16" id="xTw-ag-DJr"/>
                                                 </constraints>
                                                 <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Description" id="MFL-Rg-cVg">
-                                                    <font key="font" metaFont="controlContent" size="11"/>
+                                                    <font key="font" metaFont="label" size="11"/>
                                                     <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                 </textFieldCell>
@@ -2958,7 +2974,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                     <rect key="frame" x="48" y="219" width="100" height="14"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Default Tab" id="hxI-Qx-6d3">
-                        <font key="font" metaFont="controlContent" size="11"/>
+                        <font key="font" metaFont="label" size="11"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
@@ -3028,7 +3044,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                 <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pbk-Hm-XUc">
                     <rect key="frame" x="0.0" y="0.0" width="717" height="1000"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
-                    <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="Gnd-X9-ZTv">
+                    <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="Gnd-X9-ZTv">
                         <rect key="frame" x="0.0" y="0.0" width="717" height="1000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -3040,7 +3056,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                         <rect key="frame" x="0.0" y="0.0" width="712" height="1000"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <subviews>
-                                            <customView ambiguous="YES" id="u8h-lt-Gs3" userLabel="Images">
+                                            <customView id="u8h-lt-Gs3" userLabel="Images">
                                                 <rect key="frame" x="0.0" y="559" width="712" height="212"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <subviews>
@@ -3098,7 +3114,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                     </avPlayerView>
                                                 </subviews>
                                             </customView>
-                                            <customView ambiguous="YES" id="HYP-4N-Axl" userLabel="Header">
+                                            <customView id="HYP-4N-Axl" userLabel="Header">
                                                 <rect key="frame" x="0.0" y="770" width="712" height="211"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <subviews>
@@ -3115,7 +3131,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="202" y="144" width="379" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Description Short" id="xKF-ga-0fC">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3153,7 +3169,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="206" y="54" width="226" height="14"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <textFieldCell key="cell" lineBreakMode="clipping" title="50 ratings" id="wCT-aR-e1M">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3204,7 +3220,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                     </button>
                                                 </subviews>
                                             </customView>
-                                            <customView ambiguous="YES" id="Pvu-Df-TZG" userLabel="Description">
+                                            <customView id="Pvu-Df-TZG" userLabel="Description">
                                                 <rect key="frame" x="0.0" y="251" width="712" height="309"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <subviews>
@@ -3219,7 +3235,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                     </textField>
                                                 </subviews>
                                             </customView>
-                                            <customView ambiguous="YES" id="hm0-6b-ETI" userLabel="Info">
+                                            <customView id="hm0-6b-ETI" userLabel="Info">
                                                 <rect key="frame" x="0.0" y="0.0" width="712" height="252"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                 <subviews>
@@ -3227,7 +3243,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="522" y="168" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Version:" id="yM1-Ym-Pkw">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3236,7 +3252,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="270" y="128" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Size:" id="ZYD-XG-e1f">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3245,7 +3261,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="522" y="128" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Bundle:" id="01o-MU-CLp">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3254,7 +3270,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="270" y="112" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Size" id="O69-Q6-jM9">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3263,7 +3279,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="522" y="112" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Bundle" id="T77-jp-jux">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3272,7 +3288,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="18" y="128" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Price:" id="1CU-oU-u3I">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3281,7 +3297,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="18" y="112" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Price" id="gzy-Al-CLE">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3290,7 +3306,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="270" y="150" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Updated" id="IZF-b9-VCK">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3299,7 +3315,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="18" y="168" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Target:" id="1F0-2V-fdU">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3308,7 +3324,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="18" y="150" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Target" id="lMH-QU-lBk">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3317,7 +3333,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="270" y="168" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Updated:" id="XEg-GL-xTB">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3326,7 +3342,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="522" y="150" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Version" id="Hg1-aq-NSA">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3335,7 +3351,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="18" y="90" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Compatibility:" id="5rs-NJ-wTp">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3344,7 +3360,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="18" y="74" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Compatibility" id="FBR-Lh-VpJ">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3353,7 +3369,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="270" y="90" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Seller:" id="zTt-tx-3Br">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3362,7 +3378,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="270" y="74" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Seller" id="YbK-vq-6Oo">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3371,7 +3387,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="522" y="90" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Age Rating:" id="qar-gI-lLH">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3380,7 +3396,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="522" y="74" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="4+" id="G5n-HZ-vGT">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3389,7 +3405,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="18" y="52" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="Copyright:" id="e6L-Q1-fgl">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" red="0.49069453530000001" green="0.49069453530000001" blue="0.49069453530000001" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
@@ -3398,7 +3414,7 @@ nvram boot-args="amfi_get_out_of_my_way=1"
                                                         <rect key="frame" x="18" y="36" width="180" height="14"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                                         <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" title="© 2019 Somebody" id="PNR-tj-ShF">
-                                                            <font key="font" metaFont="controlContent" size="11"/>
+                                                            <font key="font" metaFont="label" size="11"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
